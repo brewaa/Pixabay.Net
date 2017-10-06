@@ -5,7 +5,7 @@ A C# client for the Pixabay.com REST API.
 - [Pixabay Website](https://pixabay.com/)
 - [Pixabay API Documentation](https://pixabay.com/api/docs/)
 
-# Install
+# Install via nuget
 
 ```
 PM> Install-Package Pixabay.Net -Version 1.0.0 
