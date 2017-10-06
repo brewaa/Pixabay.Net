@@ -198,7 +198,7 @@ namespace Pixabay.Net
         /// <returns></returns>
         public async Task DownloadHighResolutionImage(ImageSearchHit hit, string destinationPath)
         {
-            await Download(hit.fullHDURL, destinationPath);
+            await Download(hit.FullHDURL, destinationPath);
         }
 
         /// <summary>
@@ -209,7 +209,7 @@ namespace Pixabay.Net
         /// <returns></returns>
         public async Task DownloadImage(ImageSearchHit hit, string destinationPath)
         {
-            await Download(hit.imageURL, destinationPath);
+            await Download(hit.ImageURL, destinationPath);
         }
 
         /// <summary>
@@ -220,7 +220,7 @@ namespace Pixabay.Net
         /// <returns></returns>
         public async Task DownloadLargeImage(ImageSearchHit hit, string destinationPath)
         {
-            await Download(hit.largeImageURL, destinationPath);
+            await Download(hit.LargeImageURL, destinationPath);
         }
 
         /// <summary>
@@ -231,7 +231,7 @@ namespace Pixabay.Net
         /// <returns></returns>
         public async Task DownloadPreviewImage(ImageSearchHit hit, string destinationPath)
         {
-            await Download(hit.previewURL, destinationPath);
+            await Download(hit.PreviewURL, destinationPath);
         }
 
         /// <summary>
@@ -244,7 +244,7 @@ namespace Pixabay.Net
         /// <returns></returns>
         public async Task DownloadWebFormatImage(ImageSearchHit hit, string destinationPath)
         {
-            await Download(hit.webformatURL, destinationPath);
+            await Download(hit.WebformatURL, destinationPath);
         }
 
         /// <summary>
@@ -255,7 +255,7 @@ namespace Pixabay.Net
         /// <returns></returns>
         public async Task DownloadVectorImage(ImageSearchHit hit, string destinationPath)
         {
-            await Download(hit.vectorURL, destinationPath);
+            await Download(hit.VectorURL, destinationPath);
         }
 
         /// <summary>

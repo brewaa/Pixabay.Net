@@ -1,39 +1,89 @@
-﻿namespace Pixabay.Net
+﻿using Newtonsoft.Json;
+
+namespace Pixabay.Net
 {
     public class ImageSearchHit
     {
         #region Properties
 
-        public int id { get; set; }
-        public string pageURL { get; set; }
-        public string type { get; set; }
-        public string tags { get; set; }
-        public string previewURL { get; set; }
-        public int previewWidth { get; set; }
-        public int previewHeight { get; set; }
-        public string webformatURL { get; set; }
-        public int webformatWidth { get; set; }
-        public int webformatHeight { get; set; }
-        public int imageWidth { get; set; }
-        public int imageHeight { get; set; }
-        public int views { get; set; }
-        public int downloads { get; set; }
-        public int favorites { get; set; }
-        public int likes { get; set; }
-        public int comments { get; set; }
-        public int user_id { get; set; }
-        public string user { get; set; }
-        public string userImageURL { get; set; }
+        [JsonProperty("id")]
+        public int Id { get; set; }
+
+        [JsonProperty("pageUrl")]
+        public string PageURL { get; set; }
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("tags")]
+        public string Tags { get; set; }
+
+        [JsonProperty("previewURL")]
+        public string PreviewURL { get; set; }
+
+        [JsonProperty("previewWidth")]
+        public int PreviewWidth { get; set; }
+
+        [JsonProperty("previewHeight")]
+        public int PreviewHeight { get; set; }
+
+        [JsonProperty("webformatURL")]
+        public string WebformatURL { get; set; }
+
+        [JsonProperty("webformatWidth")]
+        public int WebformatWidth { get; set; }
+
+        [JsonProperty("webformatHeight")]
+        public int WebformatHeight { get; set; }
+
+        [JsonProperty("imageWidth")]
+        public int ImageWidth { get; set; }
+
+        [JsonProperty("imageHeight")]
+        public int ImageHeight { get; set; }
+
+        [JsonProperty("views")]
+        public int Views { get; set; }
+
+        [JsonProperty("downloads")]
+        public int Downloads { get; set; }
+
+        [JsonProperty("favorites")]
+        public int Favorites { get; set; }
+
+        [JsonProperty("likes")]
+        public int Likes { get; set; }
+
+        [JsonProperty("comments")]
+        public int Comments { get; set; }
+
+        [JsonProperty("user_id")]
+        public int UserId { get; set; }
+
+        [JsonProperty("user")]
+        public string User { get; set; }
+
+        [JsonProperty("userImageURL")]
+        public string UserImageURL { get; set; }
 
         #endregion
 
         #region Properties - High Resolution
 
-        public string id_hash { get; set; }
-        public string largeImageURL { get; set; }
-        public string fullHDURL { get; set; }
-        public string imageURL { get; set; }
-        public string vectorURL { get; set; }
+        [JsonProperty("id_hash")]
+        public string IdHash { get; set; }
+
+        [JsonProperty("largeImageURL")]
+        public string LargeImageURL { get; set; }
+
+        [JsonProperty("fullHDURL")]
+        public string FullHDURL { get; set; }
+
+        [JsonProperty("imageURL")]
+        public string ImageURL { get; set; }
+
+        [JsonProperty("vectorURL")]
+        public string VectorURL { get; set; }
 
         #endregion
     }

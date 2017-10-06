@@ -1,9 +1,17 @@
-﻿namespace Pixabay.Net
+﻿using Newtonsoft.Json;
+
+namespace Pixabay.Net
 {
     public class Videos
     {
-        public Video large { get; set; }
-        public Video medium { get; set; }
-        public Video small { get; set; }
+        [JsonProperty("large")]
+        public Video Large { get; set; }
+
+        [JsonProperty("medium")]
+        public Video Medium { get; set; }
+
+        [JsonProperty("small")]
+        public Video Small { get; set; }
+
     }
 }
