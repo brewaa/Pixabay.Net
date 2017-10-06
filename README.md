@@ -1,4 +1,4 @@
-# Unofficial .Net API Client for Pixabay.com
+# API Client for Pixabay.com
 
 A C# client for the Pixabay.com REST API.
 
@@ -10,3 +10,7 @@ A C# client for the Pixabay.com REST API.
 ```
 PM> Install-Package Pixabay.Net -Version 1.0.0 
 ```
+
+# Dependencies
+
+- .NETStandard 1.3
