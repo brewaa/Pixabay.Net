@@ -3,12 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description># Unofficial .Net API Client for Pixabay.com
-
-A C# client for the Pixabay.com REST API.
-
-- [Pixabay Website](https://pixabay.com/)
-- [Pixabay API Documentation](https://pixabay.com/api/docs/)</Description>
+    <Description>Unofficial .Net API Client for Pixabay.com
+- https://pixabay.com/
+- https://pixabay.com/api/docs/</Description>
   </PropertyGroup>
 
   <ItemGroup>
