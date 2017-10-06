@@ -6,6 +6,7 @@
     <Description>Unofficial .Net API Client for Pixabay.com
 - https://pixabay.com/
 - https://pixabay.com/api/docs/</Description>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
