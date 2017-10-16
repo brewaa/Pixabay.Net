@@ -6,12 +6,22 @@
     <Description>Unofficial .Net API Client for Pixabay.com
 - https://pixabay.com/
 - https://pixabay.com/api/docs/</Description>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
     <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
+  </ItemGroup>
+
+  <!-- Conditionally obtain references for the .NET Framework 4.52 target -->
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net52' ">
+    
+  </ItemGroup>
+
+  <!-- Conditionally obtain references for the .NETStandard 1.3 target -->
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.3' ">
+    
   </ItemGroup>
 
 </Project>
